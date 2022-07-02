@@ -1,0 +1,36 @@
+{
+  "name": "@m4r54l-halo/react-components-library",
+  "publishConfig": {
+    "registry": "https://github.com/M4R54L-H4L0/react-components-library.git"
+  },
+  "version": "0.0.1",
+  "description": "A shared library of React components",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/types/index.d.ts",
+  "author": "M4R54L",
+  "license": "MIT",
+  "scripts": {
+    "rollup": "rollup -c rollup.config.js"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/material": "^5.8.6",
+    "tslib": "^2.4.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@types/react": "^18.0.14",
+    "react": "^18.2.0",
+    "rollup": "^2.75.7",
+    "rollup-plugin-dts": "^4.2.2",
+    "typescript": "^4.7.4"
+  }
+}
